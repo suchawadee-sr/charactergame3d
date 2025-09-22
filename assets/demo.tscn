@@ -73,7 +73,7 @@ keep_aspect = 0
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.961624, 0.0801624, -0.262401, 0.0153789, 0.939116, 0.343256, 0.273941, -0.334118, 0.901843, 0.82712, 8.31603, 22.1501)
 light_color = Color(1, 0.878431, 0.658824, 1)
-light_energy = 0.6
+light_energy = 0.5
 shadow_enabled = true
 
 [node name="floor" type="Node3D" parent="."]
