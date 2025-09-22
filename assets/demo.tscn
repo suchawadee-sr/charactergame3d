@@ -67,13 +67,14 @@ transform = Transform3D(0.978531, 0, 0.206102, 0, 1, 0, -0.206102, 0, 0.978531, 
 transform = Transform3D(0.940751, 0, 0.339099, 0, 1, 0, -0.339099, 0, 0.940751, -7.37797, -0.129482, 4.28291)
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.968156, 0.250346, 0, -0.250346, 0.968156, 0, 6.80826, 18.0607)
+transform = Transform3D(1, 0, 0, 0, 0.968156, 0.250346, 0, -0.250346, 0.968156, 0, 6.93219, 21.7748)
 keep_aspect = 0
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.961624, 0.0801624, -0.262401, 0.0153789, 0.939116, 0.343256, 0.273941, -0.334118, 0.901843, 0.82712, 8.31603, 22.1501)
 light_color = Color(1, 0.878431, 0.658824, 1)
 light_energy = 0.5
+light_indirect_energy = 0.5
 shadow_enabled = true
 
 [node name="floor" type="Node3D" parent="."]
