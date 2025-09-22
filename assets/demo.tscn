@@ -67,7 +67,7 @@ transform = Transform3D(0.978531, 0, 0.206102, 0, 1, 0, -0.206102, 0, 0.978531, 
 transform = Transform3D(0.940751, 0, 0.339099, 0, 1, 0, -0.339099, 0, 0.940751, -7.37797, -0.129482, 4.28291)
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.984965, 0.172754, 0, -0.172754, 0.984965, 0, 7.05438, 20.7228)
+transform = Transform3D(1, 0, 0, 0, 0.984965, 0.172754, 0, -0.172754, 0.984965, 0, 6.95963, 20.7228)
 keep_aspect = 0
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
