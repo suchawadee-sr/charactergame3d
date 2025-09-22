@@ -1,0 +1,209 @@
+[gd_scene load_steps=33 format=3 uid="uid://c5qea7caqr4mb"]
+
+[ext_resource type="Script" uid="uid://bijfght6b83bg" path="res://assets/demo.gd" id="1_amuei"]
+[ext_resource type="PackedScene" uid="uid://xsoxoj508lqm" path="res://assets/Suchawadee01.tscn" id="1_s02n5"]
+[ext_resource type="PackedScene" uid="uid://cllpivtfs5og5" path="res://assets/Pretty park set.undefined-zip/Floor Grass Sliced A/floor_grass_sliced_A.fbx" id="3_yqfd4"]
+[ext_resource type="PackedScene" uid="uid://cmgnckcf44oje" path="res://assets/Pretty park set.undefined-zip/Floor Grass Sliced B/floor_grass_sliced_B.fbx" id="4_p3yuf"]
+[ext_resource type="PackedScene" uid="uid://bast3ybibooa8" path="res://assets/Pretty park set.undefined-zip/Floor Grass Sliced C/floor_grass_sliced_C.fbx" id="5_th64v"]
+[ext_resource type="PackedScene" uid="uid://cp2o1e58dyrpf" path="res://assets/Pretty park set.undefined-zip/Floor Grass Sliced D/floor_grass_sliced_D.fbx" id="6_f7tf8"]
+[ext_resource type="PackedScene" uid="uid://cft47mw8wsbbu" path="res://assets/Pretty park set.undefined-zip/Floor Grass Sliced E/floor_grass_sliced_E.fbx" id="7_vqg4p"]
+[ext_resource type="PackedScene" uid="uid://d38vdu181xd3p" path="res://assets/Pretty park set.undefined-zip/Floor Grass Sliced F/floor_grass_sliced_F.fbx" id="8_mfxxg"]
+[ext_resource type="PackedScene" uid="uid://bsv3q1r0nrvl" path="res://assets/Pretty park set.undefined-zip/Floor Grass Sliced G/floor_grass_sliced_G.fbx" id="9_ri5ci"]
+[ext_resource type="PackedScene" uid="uid://kv6xejlw31ay" path="res://assets/Pretty park set.undefined-zip/Floor Grass Sliced H/floor_grass_sliced_H.fbx" id="10_1tgmw"]
+[ext_resource type="PackedScene" uid="uid://dvaap34tekwul" path="res://assets/Pretty park set.undefined-zip/Floor Grass Sliced I/floor_grass_sliced_I.fbx" id="11_b5mch"]
+[ext_resource type="PackedScene" uid="uid://bxx8rklarqyw8" path="res://assets/Pretty park set.undefined-zip/Fountain/fountain.fbx" id="12_myo30"]
+[ext_resource type="PackedScene" uid="uid://ch2p2ae7enjh5" path="res://assets/Pretty park set.undefined-zip/Flower A/flower_A.fbx" id="13_mwhu6"]
+[ext_resource type="PackedScene" uid="uid://dty23t48e8ed4" path="res://assets/Pretty park set.undefined-zip/Bench/bench.fbx" id="14_7g87o"]
+[ext_resource type="PackedScene" uid="uid://cv646074b75fd" path="res://assets/Pretty park set.undefined-zip/Flower B/flower_B.fbx" id="14_s128b"]
+[ext_resource type="PackedScene" uid="uid://b6hohyaaennpx" path="res://assets/Pretty park set.undefined-zip/Grass A/grass_A.fbx" id="15_7g87o"]
+[ext_resource type="PackedScene" uid="uid://c1xsp4yq61b5t" path="res://assets/Pretty park set.undefined-zip/Bird/bird.fbx" id="15_q40a8"]
+[ext_resource type="PackedScene" uid="uid://c43bwvqxyo3c0" path="res://assets/Pretty park set.undefined-zip/Street Lantern/street_lantern.fbx" id="16_7h4d3"]
+[ext_resource type="PackedScene" uid="uid://bemeubars2fgp" path="res://assets/Pretty park set.undefined-zip/Grass B/grass_B.fbx" id="16_q40a8"]
+[ext_resource type="PackedScene" uid="uid://xfjs34468tj6" path="res://assets/Pretty park set.undefined-zip/Trashcan/trashcan.fbx" id="17_mi7je"]
+[ext_resource type="PackedScene" uid="uid://biomjbpr1jsuc" path="res://assets/Pretty park set.undefined-zip/Tree/tree.fbx" id="18_68qgu"]
+[ext_resource type="PackedScene" uid="uid://bljdm4qb0dr1o" path="res://assets/Pretty park set.undefined-zip/Tree Large/tree_large.fbx" id="19_7h4d3"]
+[ext_resource type="PackedScene" uid="uid://b8i2oq4upthyr" path="res://assets/Pretty park set.undefined-zip/Bush/bush.fbx" id="20_68qgu"]
+[ext_resource type="PackedScene" uid="uid://dkv2cgifro5gg" path="res://assets/Pretty park set.undefined-zip/Hedge Corner/hedge_corner.fbx" id="20_rh2st"]
+[ext_resource type="PackedScene" uid="uid://vem4j7uepqj8" path="res://assets/Pretty park set.undefined-zip/Hedge Straight/hedge_straight.fbx" id="21_5oeba"]
+[ext_resource type="PackedScene" uid="uid://b1hk3htaet3im" path="res://assets/Pretty park set.undefined-zip/Bush Large/bush_large.fbx" id="21_7h4d3"]
+[ext_resource type="PackedScene" uid="uid://demdspryhajn4" path="res://assets/Pretty park set.undefined-zip/Hedge Straight Long/hedge_straight_long.fbx" id="22_i1vdj"]
+[ext_resource type="PackedScene" uid="uid://dl3y2cp5bvkcw" path="res://assets/Pretty park set.undefined-zip/Cobble Stones/cobble_stones.fbx" id="22_rh2st"]
+[ext_resource type="PackedScene" uid="uid://b1oytghuqi257" path="res://assets/Pretty park set.undefined-zip/Cobble Stones Large/cobble_stones_large.fbx" id="23_5oeba"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_yqfd4"]
+sky_top_color = Color(0.469923, 0.646888, 0.735619, 1)
+sky_horizon_color = Color(1.26146, 1.34982, 1.39455, 1)
+ground_bottom_color = Color(0.470588, 0.647059, 0.737255, 1)
+ground_horizon_color = Color(1.26146, 1.34982, 1.39455, 1)
+
+[sub_resource type="Sky" id="Sky_p3yuf"]
+sky_material = SubResource("ProceduralSkyMaterial_yqfd4")
+
+[sub_resource type="Environment" id="Environment_th64v"]
+background_mode = 2
+sky = SubResource("Sky_p3yuf")
+ssao_enabled = true
+glow_enabled = true
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_amuei")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_th64v")
+
+[node name="Suchawadee01" parent="." instance=ExtResource("1_s02n5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.012, 0, -1.118)
+
+[node name="Suchawadee02" parent="." instance=ExtResource("1_s02n5")]
+transform = Transform3D(-0.326806, 0, -0.945092, 0, 1, 0, 0.945092, 0, -0.326806, 6.52483, 1.4679, -9.53975)
+
+[node name="Suchawadee03" parent="." instance=ExtResource("1_s02n5")]
+transform = Transform3D(0.809322, -0.00263197, -0.587359, 0.00252282, 0.999996, -0.00100482, 0.58736, -0.000668585, 0.809326, 11.7942, -0.209154, -4.19805)
+
+[node name="Suchawadee04" parent="." instance=ExtResource("1_s02n5")]
+transform = Transform3D(0.978531, 0, 0.206102, 0, 1, 0, -0.206102, 0, 0.978531, -4.84359, 0.331643, -8.00918)
+
+[node name="Suchawadee05" parent="." instance=ExtResource("1_s02n5")]
+transform = Transform3D(0.940751, 0, 0.339099, 0, 1, 0, -0.339099, 0, 0.940751, -7.37797, -0.129482, 4.28291)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.968156, 0.250346, 0, -0.250346, 0.968156, 0, 6.80826, 18.0607)
+keep_aspect = 0
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.961624, 0.0801624, -0.262401, 0.0153789, 0.939116, 0.343256, 0.273941, -0.334118, 0.901843, 0.82712, 8.31603, 22.1501)
+light_color = Color(1, 0.878431, 0.658824, 1)
+light_energy = 0.6
+shadow_enabled = true
+
+[node name="floor" type="Node3D" parent="."]
+transform = Transform3D(6.30755, 0, 0, 0, 2.01813, 0, 0, 0, 6.40901, 1.01721, 0.0635605, -6.40394)
+
+[node name="floor_grass_sliced_A" parent="floor" instance=ExtResource("3_yqfd4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -2.00459)
+
+[node name="floor_grass_sliced_B" parent="floor" instance=ExtResource("4_p3yuf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.00459)
+
+[node name="floor_grass_sliced_C" parent="floor" instance=ExtResource("5_th64v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -2.00459)
+
+[node name="floor_grass_sliced_D" parent="floor" instance=ExtResource("6_f7tf8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -0.00459337)
+
+[node name="floor_grass_sliced_E" parent="floor" instance=ExtResource("7_vqg4p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.00459337)
+
+[node name="floor_grass_sliced_F" parent="floor" instance=ExtResource("8_mfxxg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -0.00459337)
+
+[node name="floor_grass_sliced_G" parent="floor" instance=ExtResource("9_ri5ci")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 1.99541)
+
+[node name="floor_grass_sliced_H" parent="floor" instance=ExtResource("10_1tgmw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.99541)
+
+[node name="floor_grass_sliced_I" parent="floor" instance=ExtResource("11_b5mch")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 1.99541)
+
+[node name="prop" type="Node3D" parent="."]
+transform = Transform3D(3.63373, 0, 0, 0, 2.34865, 0, 0, 0, 3.75504, 0, 0, 3.17054)
+
+[node name="fountain" parent="prop" instance=ExtResource("12_myo30")]
+transform = Transform3D(0.646312, -0.000192126, -0.373035, 0.000141611, 0.74624, -0.000138991, 0.373035, 4.95984e-05, 0.646312, -0.887695, -8.12104e-07, -3.56575)
+
+[node name="trashcan" parent="prop" instance=ExtResource("17_mi7je")]
+transform = Transform3D(0.765696, 0, 0, 0, 0.765696, 0, 0, 0, 0.765696, -3.1557, 0, -3.05581)
+
+[node name="bench" parent="prop" instance=ExtResource("14_7g87o")]
+transform = Transform3D(0.723356, 0, -0.367694, 0, 0.811445, 0, 0.367694, 0, 0.723356, 2.0517, 0, -3.50259)
+
+[node name="bird" parent="prop" instance=ExtResource("15_q40a8")]
+transform = Transform3D(0.876214, 0, -0.481922, 0, 1, 0, 0.481922, 0, 0.876214, -0.515699, 1.18161, -3.70739)
+
+[node name="bird2" parent="prop" instance=ExtResource("15_q40a8")]
+transform = Transform3D(0.922538, 0, 0.385906, 0, 1, 0, -0.385906, 0, 0.922538, -1.68562, -0.0253647, -0.334487)
+
+[node name="street_lantern" parent="prop" instance=ExtResource("16_7h4d3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.19278, 0, -4.49487)
+
+[node name="grass" type="Node3D" parent="."]
+transform = Transform3D(3.63373, 0, 0, 0, 2.34865, 0, 0, 0, 3.75504, 0, 0, 3.17054)
+
+[node name="flower_A" parent="grass" instance=ExtResource("13_mwhu6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.541522, 0, -2.17123)
+
+[node name="flower_B" parent="grass" instance=ExtResource("14_s128b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.943563, 0, -1.84606)
+
+[node name="grass_A" parent="grass" instance=ExtResource("15_7g87o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.72857, 0.0788445, -2.67928)
+
+[node name="grass_B" parent="grass" instance=ExtResource("16_q40a8")]
+transform = Transform3D(-0.0272936, 0, -0.999627, 0, 1, 0, 0.999627, 0, -0.0272936, 0.485885, 0.0785847, -2.60833)
+
+[node name="grass_A2" parent="grass" instance=ExtResource("15_7g87o")]
+transform = Transform3D(-0.991601, 0, 0.129332, 0, 1, 0, -0.129332, 0, -0.991601, -2.53133, 0.0848127, -0.253748)
+
+[node name="grass_B2" parent="grass" instance=ExtResource("16_q40a8")]
+transform = Transform3D(-0.991601, 0, 0.129332, 0, 1, 0, -0.129332, 0, -0.991601, -0.763314, 0.0845528, -0.837718)
+
+[node name="bush" parent="grass" instance=ExtResource("20_68qgu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.4936, 0, -3.00969)
+
+[node name="bush_large" parent="grass" instance=ExtResource("21_7h4d3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.40994, 0, -1.61803)
+
+[node name="bush_large2" parent="grass" instance=ExtResource("21_7h4d3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.03076, -0.00103178, -1.81293)
+
+[node name="cobble_stones" parent="grass" instance=ExtResource("22_rh2st")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00918525, 0, 0.195984)
+
+[node name="cobble_stones2" parent="grass" instance=ExtResource("22_rh2st")]
+transform = Transform3D(0.898457, 0, 0.439061, 0, 1, 0, -0.439061, 0, 0.898457, -0.00918525, 0, 1.29937)
+
+[node name="cobble_stones3" parent="grass" instance=ExtResource("22_rh2st")]
+transform = Transform3D(0.962256, 0, -0.272146, 0, 1, 0, 0.272146, 0, 0.962256, 0.92989, -4.06052e-07, 0.634672)
+
+[node name="cobble_stones_large" parent="grass" instance=ExtResource("23_5oeba")]
+transform = Transform3D(0.927765, 0, 0.373166, 0, 1, 0, -0.373166, 0, 0.927765, -1.83749, 2.03026e-07, -1.11797)
+
+[node name="cobble_stones_large2" parent="grass" instance=ExtResource("23_5oeba")]
+transform = Transform3D(0.8164, 0, -0.577487, 0, 1, 0, 0.577487, 0, 0.8164, 0.216322, 2.03026e-07, -1.11797)
+
+[node name="cobble_stones_large3" parent="grass" instance=ExtResource("23_5oeba")]
+transform = Transform3D(0.988689, 0, 0.149984, 0, 1, 0, -0.149984, 0, 0.988688, 2.22067, 2.03026e-07, -1.11797)
+
+[node name="tree" type="Node3D" parent="."]
+transform = Transform3D(3.63373, 0, 0, 0, 2.34865, 0, 0, 0, 3.75504, 0, 0, -11.2622)
+
+[node name="tree" parent="tree" instance=ExtResource("18_68qgu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.53343, 0, -0.363679)
+
+[node name="tree2" parent="tree" instance=ExtResource("18_68qgu")]
+transform = Transform3D(0.703878, 0, -0.710321, 0, 1, 0, 0.710321, 0, 0.703878, -3.78712, 0, 3.125)
+
+[node name="tree_large" parent="tree" instance=ExtResource("19_7h4d3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.26733, 0.273444, -0.243601)
+
+[node name="tree_large2" parent="tree" instance=ExtResource("19_7h4d3")]
+transform = Transform3D(0.652469, 0, 0.757816, 0, 1, 0, -0.757816, 0, 0.652469, 4.70702, 0.273444, 1.73614)
+
+[node name="hedge" type="Node3D" parent="."]
+transform = Transform3D(3.63373, 0, 0, 0, 2.34865, 0, 0, 0, 3.75504, 2.13885, 0, -9.81515)
+
+[node name="hedge_corner" parent="hedge" instance=ExtResource("20_rh2st")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.05094, 0, -2.30076)
+
+[node name="hedge_straight" parent="hedge" instance=ExtResource("21_5oeba")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 4.39117, 0, -0.608313)
+
+[node name="hedge_straight2" parent="hedge" instance=ExtResource("21_5oeba")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -5.07469, 0, 0.692406)
+
+[node name="hedge_straight_long" parent="hedge" instance=ExtResource("22_i1vdj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.02362, 1.62421e-06, -2.21763)
+
+[node name="hedge_straight_long2" parent="hedge" instance=ExtResource("22_i1vdj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.96961, -0.00846212, -2.20104)
